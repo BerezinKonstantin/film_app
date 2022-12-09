@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Layout from "../components/Layout";
-import Main from "../components/Main";
 import "../styles/globals.css";
 
 export default function MyApp({ Component, pageProps }) {

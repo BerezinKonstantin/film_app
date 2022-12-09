@@ -1,6 +1,14 @@
 .main {
   display: flex;
   flex-direction: column;
+  max-width: 90%;
   min-height: calc(100vh - 80px);
   padding: 80px 0 40px;
+  margin: 0 auto;
+}
+.title {
+  margin: 48px auto 0;
+}
+.subtitle {
+  margin: 38px auto;
 }

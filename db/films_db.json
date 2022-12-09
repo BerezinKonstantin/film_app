@@ -1,271 +1,620 @@
 {
-  "data": [
+  "films": [
     {
-      "film_name": "Зеленая миля",
-      "big_img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/35975f3e-11e5-483f-9895-be2689f99a0d/1080x",
-      "cover": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/acb932eb-c7d0-42de-92df-f5f306c4c48e/1080x",
-      "year": "1999",
-      "rating": 9.062,
-      "genre": ["фэнтези", "драма", "криминал", "детектив"],
-      "actors": ["Том Хэнкc", "Дэвид Морс", "Бонни Хант"],
-      "director": "Фрэнк Дарабонт",
-      "description": "Пол Эджкомб — начальник блока смертников в тюрьме «Холодная гора», каждый из узников которого однажды проходит «зеленую милю» по пути к месту казни. Пол повидал много заключённых и надзирателей за время работы. Однако гигант Джон Коффи, обвинённый в страшном преступлении, стал одним из самых необычных обитателей блока.",
-      "_id": 1,
-      "likes": []
-    },
-    {
-      "film_name": "Побег из Шоушенка",
-      "big_img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/a9b7373f-8165-4d2f-a960-8caa2fb38cc1/1080x",
-      "cover": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/2fbb9b8d-4f86-45fb-b42c-8c7b0e7ac7a5/1080x",
-      "year": "1994",
-      "rating": 9.108,
-      "genre": ["драма"],
-      "actors": ["Тим Роббинс", "Морган Фриман", "Боб Гантон"],
-      "director": "Фрэнк Дарабонт",
-      "description": "Бухгалтер Энди Дюфрейн обвинён в убийстве собственной жены и её любовника. Оказавшись в тюрьме под названием Шоушенк, он сталкивается с жестокостью и беззаконием, царящими по обе стороны решётки. Каждый, кто попадает в эти стены, становится их рабом до конца жизни. Но Энди, обладающий живым умом и доброй душой, находит подход как к заключённым, так и к охранникам, добиваясь их особого к себе расположения.",
-      "_id": 2,
-      "likes": []
-    },
-    {
-      "film_name": "Властелин колец: Возвращение короля",
-      "big_img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/5679fa74-d6b5-4f7f-b832-d293e40df81e/1080x",
-      "cover": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/7dfa6dbd-15ea-41e9-b869-63dd33ffdb0d/1080x",
-      "year": "2003",
-      "rating": 8.639,
-      "genre": ["фэнтези", "приключения", "драма"],
-      "actors": ["Элайджа Вуд", "Вигго Мортенсен", "Шон Эстин"],
-      "director": "Питер Джексон",
-      "description": "Повелитель сил тьмы Саурон направляет свою бесчисленную армию под стены Минас-Тирита, крепости Последней Надежды. Он предвкушает близкую победу, но именно это мешает ему заметить две крохотные фигурки — хоббитов, приближающихся к Роковой Горе, где им предстоит уничтожить Кольцо Всевластья.",
-      "_id": 3,
-      "likes": []
-    },
-    {
-      "film_name": "Властелин колец: Две крепости",
-      "big_img": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/9faa9549-17c5-4732-8060-9d6cc9ae8197/1080x",
-      "cover": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/927d885e-ee18-4636-89d4-311bdcd9de0c/1080x",
-      "year": "2002",
-      "rating": 8.584,
-      "genre": ["фэнтези", "приключения", "драма"],
-      "actors": ["Элайджа Вуд", "Вигго Мортенсен", "Шон Эстин"],
-      "director": "Питер Джексон",
-      "description": "Братство распалось, но Кольцо Всевластья должно быть уничтожено. Фродо и Сэм вынуждены доверится Голлуму, который взялся провести их к вратам Мордора. Громадная армия Сарумана приближается: члены братства и их союзники готовы принять бой. Битва за Средиземье продолжается.",
-      "_id": 4,
-      "likes": []
-    },
-    {
-      "film_name": "Властелин колец: Братство Кольца",
-      "big_img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/0f341ff8-2452-4d8b-ba2c-403e21b32b81/1080x",
-      "cover": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/05233b2d-a25a-44fe-9cca-47063a2f2b4d/1080x",
-      "year": "2001",
-      "rating": 8.588,
-      "genre": ["фэнтези", "прилючения", "драма"],
-      "actors": ["Элайджа Вуд", "Вигго Мортенсен", "Шон Эстин"],
-      "director": "Питер Джексон",
-      "description": "Сказания о Средиземье — это хроника Великой войны за Кольцо, длившейся не одну тысячу лет. Тот, кто владел Кольцом, получал неограниченную власть, но был обязан служить злу.",
-      "_id": 5,
-      "likes": []
-    },
-    {
-      "film_name": "Король Лев",
-      "big_img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/cb66daf9-6e81-476a-9d5f-f4d7a0023704/1080x",
-      "cover": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/87694ba0-030f-42bc-8ba7-828bb8d3848d/1080x",
-      "year": "1994",
-      "rating": 8.771,
-      "genre": ["мультфильм", "мюзикл", "драма", "приключения", "семейный"],
-      "actors": ["Мэттью Бродерик", "Джереми Айронс", "Нэйтан Лейн"],
-      "director": "Роджер Аллерс",
-      "description": "У величественного Короля-Льва Муфасы рождается наследник по имени Симба. Уже в детстве любознательный малыш становится жертвой интриг своего завистливого дяди Шрама, мечтающего о власти.",
-      "_id": 6,
-      "likes": []
-    },
-    {
-      "film_name": "Форрест Гамп",
-      "big_img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/d9715c23-1b69-4af4-92dc-8ea67e60034c/1080x",
-      "cover": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/6aa4d966-9a35-4209-98e0-ec3b09297f46/1080x",
-      "year": "1994",
-      "rating": 8.908,
-      "genre": ["драма", "комедия", "мелодрама", "история", "военный"],
-      "actors": ["Том Хэнкс", "Робин Райт", "Салли Филд"],
-      "director": "Роберт Земекис",
-      "description": "Сидя на автобусной остановке, Форрест Гамп — не очень умный, но добрый и открытый парень — рассказывает случайным встречным историю своей необыкновенной жизни.",
-      "_id": 7,
-      "likes": []
-    },
-    {
-      "film_name": "Интерстеллар",
-      "big_img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/a00ca897-4746-4e96-92e5-458220136797/1080x",
-      "cover": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/d270debf-1e96-4ffe-b232-43070136398f/1080x",
-      "year": "2014",
-      "rating": 8.602,
-      "genre": ["фантастика", "драма", "приключения"],
-      "actors": ["Мэттью МакКонахи", "Энн Хэтэуэй", "Джессика Честейн"],
-      "director": "Кристофер Нолан",
-      "description": "Когда засуха, пыльные бури и вымирание растений приводят человечество к продовольственному кризису, коллектив исследователей и учёных отправляется сквозь червоточину (которая предположительно соединяет области пространства-времени через большое расстояние) в путешествие, чтобы превзойти прежние ограничения для космических путешествий человека и найти планету с подходящими для человечества условиями.",
-      "_id": 8,
-      "likes": []
-    },
-    {
-      "film_name": "Иван Васильевич меняет профессию",
-      "big_img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/c29e5f67-2df0-4d6d-93f0-c6558a6c548f/1080x",
-      "cover": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/ade9e524-db5b-4b87-9a76-54aa1e3b1052/1080x",
-      "year": "1973",
-      "rating": 8.78,
-      "genre": ["комедия", "фантастика", "приключения"],
-      "actors": ["Александр Демьяненко", "Юрий Яковлев", "Леонид Куравлёв"],
-      "director": "Леонид Гайдай",
-      "description": "Инженер-изобретатель Тимофеев сконструировал машину времени, которая соединила его квартиру с далеким шестнадцатым веком - точнее, с палатами государя Ивана Грозного. Туда-то и попадают тезка царя пенсионер-общественник Иван Васильевич Бунша и квартирный вор Жорж Милославский.",
-      "_id": 9,
-      "likes": []
-    },
-    {
-      "film_name": "Тайна Коко",
-      "big_img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/fd099b39-a6d4-4c16-808a-d14ff2c4361a/2560x",
-      "cover": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/54684139-6461-4f35-8326-f6a024ad763f/2560x",
-      "year": "2017",
-      "rating": 8.632,
-      "genre": [
-        "мультфильм",
-        "фэнтези",
-        "детектив",
-        "приключения",
-        "семейный",
-        "музыка"
+      "kinopoiskId": 535341,
+      "imdbId": "tt1675434",
+      "nameRu": "1+1",
+      "nameEn": null,
+      "nameOriginal": "Intouchables",
+      "countries": [
+        {
+          "country": "Франция"
+        }
       ],
-      "actors": ["Энтони Гонсалес", "Гаэль Гарсиа Берналь", "Бенджамин Брэтт"],
-      "director": "Ли Анкрич",
-      "description": "12-летний Мигель живёт в мексиканской деревушке в семье сапожников и тайно мечтает стать музыкантом. Тайно, потому что в его семье музыка считается проклятием. Когда-то его прапрадед оставил жену, прапрабабку Мигеля, ради мечты, которая теперь не даёт спокойно жить и его праправнуку.",
-      "_id": 10,
-      "likes": []
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.8,
+      "ratingImdb": 8.5,
+      "year": 2011,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/535341.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/535341.jpg"
     },
     {
-      "film_name": "Криминальное чтиво",
-      "big_img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/31f15a2a-f8c0-4260-b552-55a25bf0b67f/1080x",
-      "cover": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/57848557-b670-40ea-8a07-fe234700c990/1080x",
-      "year": "1994",
-      "rating": 8.622,
-      "genre": ["криминал", "драма"],
-      "actors": ["Джон Траволта", "Сэмюэл Л. Джексон", "Брюс Уиллис"],
-      "director": "Квентин Тарантино",
-      "description": "Двое бандитов Винсент Вега и Джулс Винфилд ведут философские беседы в перерывах между разборками и решением проблем с должниками криминального босса Марселласа Уоллеса.",
-      "_id": 11,
-      "likes": []
+      "kinopoiskId": 1143242,
+      "imdbId": "tt8367814",
+      "nameRu": "Джентльмены",
+      "nameEn": null,
+      "nameOriginal": "The Gentlemen",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.5,
+      "ratingImdb": 7.8,
+      "year": 2019,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1143242.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1143242.jpg"
     },
     {
-      "film_name": "1+1",
-      "big_img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/1488881f-a192-4436-b8fb-e3b92a594e8a/1080x",
-      "cover": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/7f8f950d-8cea-4cbb-9202-04215c5013ec/1080x",
-      "year": "2011",
-      "rating": 8.803,
-      "genre": ["драма", "комедия", "биография"],
-      "actors": ["Франсуа Клюзе", "Омар Си", "Анн Ле Ни"],
-      "director": "Оливье Накаш",
-      "description": "Пострадав в результате несчастного случая, богатый аристократ Филипп нанимает в помощники человека, который менее всего подходит для этой работы, – молодого жителя предместья Дрисса, только что освободившегося из тюрьмы. Несмотря на то, что Филипп прикован к инвалидному креслу, Дриссу удается привнести в размеренную жизнь аристократа дух приключений.",
-      "_id": 12,
-      "likes": []
+      "kinopoiskId": 462682,
+      "imdbId": "tt0993846",
+      "nameRu": "Волк с Уолл-стрит",
+      "nameEn": null,
+      "nameOriginal": "The Wolf of Wall Street",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 8.2,
+      "year": 2013,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/462682.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/462682.jpg"
     },
     {
-      "film_name": "ВАЛЛ·И",
-      "big_img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/cd77527a-4c2d-4596-af14-8fca24684c72/1080x",
-      "cover": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/11e47fb3-d185-41ae-9af8-9eb989d17261/1080x",
-      "year": "2008",
-      "rating": 8.326,
-      "genre": ["мультфильм", "фантастика", "приключения", "семейный"],
-      "actors": ["Бен Бертт", "Элисса Найт", "Джефф Гарлин"],
-      "director": "Эндрю Стэнтон",
-      "description": "Робот ВАЛЛ·И из года в год прилежно трудится на опустевшей Земле, очищая нашу планету от гор мусора, которые оставили после себя улетевшие в космос люди. Он и не представляет, что совсем скоро произойдут невероятные события, благодаря которым он встретит друзей, поднимется к звездам и даже сумеет изменить к лучшему своих бывших хозяев, совсем позабывших родную Землю.",
-      "_id": 13,
-      "likes": []
+      "kinopoiskId": 1318972,
+      "imdbId": "tt11083552",
+      "nameRu": "Гнев человеческий",
+      "nameEn": null,
+      "nameOriginal": "Wrath of Man",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 7.6,
+      "ratingImdb": 7.1,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1318972.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1318972.jpg"
     },
     {
-      "film_name": "Карты, деньги, два ствола",
-      "big_img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/d7312d12-296a-49f3-8faa-31e5a5c5b482/1080x",
-      "cover": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/c0af8279-6daa-47e0-88ca-a6b3d98d4ecb/1080x",
-      "year": "1998",
-      "rating": 8.553,
-      "genre": ["боевик", "комедия", "криминал"],
-      "actors": ["Джейсон Флеминг", "Декстер Флетчер", "Ник Моран"],
-      "director": "Гай Ричи",
-      "description": "Четверо молодых парней накопили каждый по 25 тысяч фунтов, чтобы один из них мог сыграть в карты с опытным шулером и матерым преступником, известным по кличке Гарри-Топор. Парень в итоге проиграл 500 тысяч, на уплату долга ему дали неделю.",
-      "_id": 14,
-      "likes": []
+      "kinopoiskId": 251733,
+      "imdbId": "tt0499549",
+      "nameRu": "Аватар",
+      "nameEn": null,
+      "nameOriginal": "Avatar",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 8.0,
+      "ratingImdb": 7.8,
+      "year": 2009,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/251733.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/251733.jpg"
     },
     {
-      "film_name": "Начало",
-      "big_img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/5bc86e3a-652f-4a8f-8b4b-aeebed05e1c2/1080x",
-      "cover": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/f21de97b-bbdd-415e-8404-b2dd39908e82/1080x",
-      "year": "2010",
-      "rating": 8.661,
-      "genre": ["фантастика", "боевик", "триллер", "драма", "детектив"],
-      "actors": ["Леонардо ДиКаприо", "Джозеф Гордон-Левитт", "Эллиот Пейдж"],
-      "director": "Кристофер Нолан",
-      "description": "Кобб – талантливый вор, лучший из лучших в опасном искусстве извлечения: он крадет ценные секреты из глубин подсознания во время сна, когда человеческий разум наиболее уязвим. Редкие способности Кобба сделали его ценным игроком в привычном к предательству мире промышленного шпионажа, но они же превратили его в извечного беглеца и лишили всего, что он когда-либо любил.",
-      "_id": 15,
-      "likes": []
+      "kinopoiskId": 41519,
+      "imdbId": "tt0118767",
+      "nameRu": "Брат",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 7.8,
+      "year": 1997,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/41519.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/41519.jpg"
     },
     {
-      "film_name": "Список Шиндлера",
-      "big_img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/5a4c861e-042b-4d4a-aab4-44cacb08a5f8/1080x",
-      "cover": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/ad682589-603d-40c1-b63a-fe01af9f3012/1080x",
-      "year": "1993",
-      "rating": 8.817,
-      "genre": ["драма", "биография", "история", "военный"],
-      "actors": ["Лиам Нисон", "Бен Кингсли", "Рэйф Файнс"],
-      "director": "Стивен Спилберг",
-      "description": "Фильм рассказывает реальную историю загадочного Оскара Шиндлера, члена нацистской партии, преуспевающего фабриканта, спасшего во время Второй мировой войны почти 1200 евреев.",
-      "_id": 16,
-      "likes": []
+      "kinopoiskId": 447301,
+      "imdbId": "tt1375666",
+      "nameRu": "Начало",
+      "nameEn": null,
+      "nameOriginal": "Inception",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 8.7,
+      "ratingImdb": 8.8,
+      "year": 2010,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/447301.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/447301.jpg"
     },
     {
-      "film_name": "Матрица",
-      "big_img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/21b08a99-b47b-41df-96f3-74e75c24c231/1080x",
-      "cover": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/258fc3d6-8223-40ce-94ea-c87c2acc9f4b/1080x",
-      "year": "1999",
-      "rating": 8.495,
-      "genre": ["фантастика", "боевик"],
-      "actors": ["Киану Ривз", "Лоренс Фишбёрн", "Кэрри-Энн Мосс"],
-      "director": "Лана Вачовски",
-      "description": "Жизнь Томаса Андерсона разделена на две части: днём он — самый обычный офисный работник, получающий нагоняи от начальства, а ночью превращается в хакера по имени Нео, и нет места в сети, куда он бы не смог проникнуть. Но однажды всё меняется. Томас узнаёт ужасающую правду о реальности.",
-      "_id": 17,
-      "likes": []
+      "kinopoiskId": 326,
+      "imdbId": "tt0111161",
+      "nameRu": "Побег из Шоушенка",
+      "nameEn": null,
+      "nameOriginal": "The Shawshank Redemption",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 9.1,
+      "ratingImdb": 9.3,
+      "year": 1994,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/326.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/326.jpg"
     },
     {
-      "film_name": "Унесённые призраками",
-      "big_img": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/38acc769-42d1-4356-a28e-f50c6655b01a/1080x",
-      "cover": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/5cda3fb9-8e03-450f-bbe1-d35ba0b4d5ff/1080x",
-      "year": "2001",
-      "rating": 8.447,
-      "genre": ["аниме", "мультфильм", "фэнтези", "приключения", "семейный"],
-      "actors": ["Руми Хиираги", "Мию Ирино", "Мари Нацуки"],
-      "director": "Хаяо Миядзаки",
-      "description": "Тихиро с мамой и папой переезжают в новый дом. Заблудившись по дороге, они оказываются в странном пустынном городе, где их ждет великолепный пир. Родители с жадностью набрасываются на еду и к ужасу девочки превращаются в свиней, став пленниками злой колдуньи Юбабы. Теперь, оказавшись одна среди волшебных существ и загадочных видений, Тихиро должна придумать, как избавить своих родителей от чар коварной старухи.",
-      "_id": 18,
-      "likes": []
+      "kinopoiskId": 775276,
+      "imdbId": "tt2948356",
+      "nameRu": "Зверополис",
+      "nameEn": null,
+      "nameOriginal": "Zootopia",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 8.0,
+      "year": 2016,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/775276.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/775276.jpg"
     },
     {
-      "film_name": "Клаус",
-      "big_img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/8851d74e-df26-47fe-94ad-80b45f4935f7/1080x",
-      "cover": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/d7253b93-c60b-41ae-962e-003f867128f5/1080x",
-      "year": "2019",
-      "rating": 8.646,
-      "genre": ["мультфильм", "семейный", "комедия", "приключения"],
-      "actors": ["Джейсон Шварцман", "Дж.К. Симмонс", "Джоан Кьюсак"],
-      "director": "Серхио Паблос",
-      "description": "Владелец почтовой империи, чтобы научить ленивого отпрыска по имени Джеспер уму-разуму, отправляет его на крайний север в город Смиренсбург. Тот должен организовать там почтовое отделение и за год обработать не менее 6000 писем.",
-      "_id": 19,
-      "likes": []
+      "kinopoiskId": 435,
+      "imdbId": "tt0120689",
+      "nameRu": "Зеленая миля",
+      "nameEn": null,
+      "nameOriginal": "The Green Mile",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "ratingKinopoisk": 9.1,
+      "ratingImdb": 8.6,
+      "year": 1999,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/435.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/435.jpg"
     },
     {
-      "film_name": "Назад в будущее",
-      "big_img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/d9eddea9-c35d-4206-8ac1-2cd49c9320ed/1080x",
-      "cover": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/e6140838-5243-42d4-9b28-5667fd1c1ff2/1080x",
-      "year": "1985",
-      "rating": 8.627,
-      "genre": ["фантастика", "комедия", "приключения"],
-      "actors": ["Майкл Дж. Фокс", "Кристофер Ллойд", "Лиа Томпсон"],
-      "director": "Роберт Земекис",
-      "description": "Подросток Марти с помощью машины времени, сооружённой его другом-профессором доком Брауном, попадает из 80-х в далекие 50-е. Там он встречается со своими будущими родителями, ещё подростками, и другом-профессором, совсем молодым.",
-      "_id": 20,
-      "likes": []
+      "kinopoiskId": 258687,
+      "imdbId": "tt0816692",
+      "nameRu": "Интерстеллар",
+      "nameEn": null,
+      "nameOriginal": "Interstellar",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        },
+        {
+          "country": "Канада"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        }
+      ],
+      "ratingKinopoisk": 8.6,
+      "ratingImdb": 8.6,
+      "year": 2014,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/258687.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/258687.jpg"
+    },
+    {
+      "kinopoiskId": 8124,
+      "imdbId": "tt0099785",
+      "nameRu": "Один дома",
+      "nameEn": null,
+      "nameOriginal": "Home Alone",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 7.7,
+      "year": 1990,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/8124.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/8124.jpg"
+    },
+    {
+      "kinopoiskId": 4374,
+      "imdbId": "tt0325980",
+      "nameRu": "Пираты Карибского моря: Проклятие Черной жемчужины",
+      "nameEn": null,
+      "nameOriginal": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 8.1,
+      "year": 2003,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4374.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4374.jpg"
+    },
+    {
+      "kinopoiskId": 448,
+      "imdbId": "tt0109830",
+      "nameRu": "Форрест Гамп",
+      "nameEn": null,
+      "nameOriginal": "Forrest Gump",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "военный"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 8.9,
+      "ratingImdb": 8.8,
+      "year": 1994,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/448.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/448.jpg"
+    },
+    {
+      "kinopoiskId": 41520,
+      "imdbId": "tt0238883",
+      "nameRu": "Брат 2",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.7,
+      "year": 2000,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/41520.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/41520.jpg"
+    },
+    {
+      "kinopoiskId": 689,
+      "imdbId": "tt0241527",
+      "nameRu": "Гарри Поттер и философский камень",
+      "nameEn": null,
+      "nameOriginal": "Harry Potter and the Sorcerer's Stone",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.6,
+      "year": 2001,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/689.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/689.jpg"
+    },
+    {
+      "kinopoiskId": 843649,
+      "imdbId": "tt4154756",
+      "nameRu": "Мстители: Война бесконечности",
+      "nameEn": null,
+      "nameOriginal": "Avengers: Infinity War",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 8.0,
+      "ratingImdb": 8.4,
+      "year": 2018,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/843649.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/843649.jpg"
+    },
+    {
+      "kinopoiskId": 397667,
+      "imdbId": null,
+      "nameRu": "Остров проклятых",
+      "nameEn": null,
+      "nameOriginal": "Shutter Island",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 8.5,
+      "ratingImdb": 8.2,
+      "year": 2009,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/397667.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/397667.jpg"
+    },
+    {
+      "kinopoiskId": 1108577,
+      "imdbId": "tt6966692",
+      "nameRu": "Зеленая книга",
+      "nameEn": null,
+      "nameOriginal": "Green Book",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Китай"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 8.2,
+      "year": 2018,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1108577.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1108577.jpg"
+    },
+    {
+      "kinopoiskId": 1188529,
+      "imdbId": "tt8946378",
+      "nameRu": "Достать ножи",
+      "nameEn": null,
+      "nameOriginal": "Knives Out",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.0,
+      "ratingImdb": 7.9,
+      "year": 2019,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1188529.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1188529.jpg"
     }
   ]
 }

@@ -7,10 +7,10 @@ export default function CardList({ randomFilms }) {
         <Card
           film={film}
           year={film.year}
-          cover={film.cover}
-          key={film._id}
-          _id={film._id}
-          filmName={film.film_name}
+          cover={film.posterUrlPreview}
+          key={i}
+          id={film.filmId}
+          filmName={film.nameRu}
           //handleOpenFilmPage={props.handleOpenFilmPage}
         />
       ))}
