@@ -1,4 +1,9 @@
 .footer {
   display: flex;
   align-self: flex-end;
+  justify-content: flex-end;
+  padding: 0 0 40px 0;
+}
+.footer_text {
+  margin: 0 40px 0 0;
 }

@@ -3,7 +3,7 @@ import Link from "next/link";
 import styles from "../styles/Card.module.css";
 export default function Card({ film, year, cover, id, filmName }) {
   return (
-    <Link className={styles.random_film__link} href={`/films/${id}`}>
+    <Link className={styles.card__link} href={`/films/${id}`}>
       <div className={styles.card}>
         <div className={styles.card__img}>
           <Image src={cover} alt="Постер фильма" fill></Image>

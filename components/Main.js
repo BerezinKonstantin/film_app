@@ -1,20 +1,19 @@
-import db from "../db/films_db.json";
 import CardList from "./CardList";
-//import SwiperItem from "./SwiperItem";
+
 import styles from "../styles/Main.module.css";
 
-const randomFilms = db.films
-  .sort(() => Math.random() - Math.random())
-  .slice(0, 3);
-
-export default function Main() {
+export default function Main({ filmArrays }) {
   return (
     <main className={styles.main}>
-      <h1 className={styles.title}>Main</h1>
-      <h2 className={styles.subtitle}>Most rated</h2>
-      <CardList randomFilms={randomFilms} />
-      <h2 className={styles.subtitle}>Top new</h2>
-      <h2 className={styles.subtitle}>Old but good</h2>
+      <h1 className={styles.title}>Не знаешь что посмотреть?</h1>
+      <h2 className={styles.subtitle}>Что-нибудь из Топ-250:</h2>
+      <CardList randomFilms={filmArrays.randomTopFilms} />
+      <h2 className={styles.subtitle}>Что-нибудь из популярного сейчас:</h2>
+      <CardList randomFilms={filmArrays.randomPopularFilms} />
+      <h2 className={styles.subtitle}>
+        Что-нибудь из хороших старых фильмов :
+      </h2>
+      <CardList randomFilms={filmArrays.randomClassicFilms} />
     </main>
   );
 }

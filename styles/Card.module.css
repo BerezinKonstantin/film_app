@@ -34,3 +34,7 @@
   font-size: 14px;
   line-height: 15px;
 }
+.card__link:hover {
+  opacity: 0.5;
+  transition: linear 0.3s;
+}

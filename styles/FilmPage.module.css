@@ -9,6 +9,17 @@
   position: relative;
   font-size: 24px;
 }
+.film_page__big_picture {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  max-height: 400px;
+  z-index: 0;
+  opacity: 0.7;
+  object-position: center;
+  object-fit: cover;
+}
 .film_page__cover {
   position: relative;
   display: block;
@@ -20,6 +31,7 @@
 }
 .film_page__wrapper {
   display: flex;
+  align-items: flex-end;
   flex-direction: row;
   padding: 200px 0 0;
 }
@@ -27,6 +39,9 @@
   display: flex;
   flex-direction: column;
   padding: 200px 60px 0;
+}
+.film_page__title {
+  z-index: 1;
 }
 .film_page__rate_container {
   display: flex;
@@ -48,6 +63,10 @@
 }
 .film_page__dscr {
   margin: 60px 0 0;
+}
+.film_page__genre {
+  display: inline-block;
+  margin: 0 10px 0 0;
 }
 @media (max-width: 790px) {
   .film_page__rate_container {
