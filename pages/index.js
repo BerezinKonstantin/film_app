@@ -1,6 +1,10 @@
 import Head from "next/head";
 import Main from "../components/Main";
-import { getTopFilms, getPopularFilms, getClassicFilms } from "./api/main";
+import {
+  getTopFilms,
+  getPopularFilms,
+  getClassicFilms,
+} from "../utils/mainApi";
 
 export const getServerSideProps = async (context) => {
   const topFilms = await getTopFilms();
@@ -22,6 +26,7 @@ export const getServerSideProps = async (context) => {
         .slice(0, 3);
     }
   };
+
   const randomTopFilms = getRandomFilms(topFilms);
   const randomPopularFilms = getRandomFilms(popularFilms);
   const randomClassicFilms = getRandomFilms(classicFilms);
