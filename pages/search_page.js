@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import CardList from "../components/CardList";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/SearchPage.module.css";
 import db from "../utils/data_bases.json";
 
 export default function SearchPage() {
@@ -35,9 +35,7 @@ export default function SearchPage() {
       );
       const res = await response.json();
       console.log(res);
-      const searchedFilms = res.items
-        .filter((item) => item.nameRu)
-        .sort(() => Math.random() - Math.random());
+      const searchedFilms = res.items.filter((item) => item.nameRu);
       setSearchedFilms(searchedFilms);
     } catch (err) {
       return console.log(err);
@@ -65,13 +63,13 @@ export default function SearchPage() {
       <Head>
         <title>Поиск</title>
       </Head>
-      <section className={styles.film_page}>
-        <h1>Выбери фильм:</h1>
-        <form action="#" onSubmit={handleSubmit}>
-          <fieldset className="popup__fieldset">
-            <span className="popup__input-label">Выбери жанр</span>
+      <section className={styles.search_page}>
+        <h1 className={styles.title}>Выбери фильм:</h1>
+        <form className={styles.search_form} action="#" onSubmit={handleSubmit}>
+          <fieldset className={styles.search_fieldset}>
+            <label className={styles.search_label}>Выбери жанр</label>
             <select
-              className="custom-select"
+              className={styles.search_input}
               name="genre"
               onChange={handleInputChange}
             >
@@ -82,11 +80,11 @@ export default function SearchPage() {
                 </option>
               ))}
             </select>
-            <span className="popup__input-label">
+            <label className={styles.search_label}>
               Выбери страну производства
-            </span>
+            </label>
             <select
-              className="custom-select"
+              className={styles.search_input}
               name="country"
               onChange={handleInputChange}
             >
@@ -97,79 +95,80 @@ export default function SearchPage() {
                 </option>
               ))}
             </select>
-            <span className="popup__input-label">Выбери рейтинг</span>
-            <input
-              type="number"
-              placeholder="min"
-              name="min_rating"
-              min="0"
-              max="10"
-              onChange={handleInputChange}
-            />
-            <input
-              type="number"
-              placeholder="max"
-              name="max_rating"
-              min="0"
-              max="10"
-              onChange={handleInputChange}
-            />
-            <span className="popup__input-label">Выбери год производства</span>
-            <input
-              type="number"
-              placeholder="min"
-              name="min_year"
-              min="1895"
-              onChange={handleInputChange}
-            />
-            <input
-              type="number"
-              placeholder="max"
-              name="max_year"
-              min="1895"
-              onChange={handleInputChange}
-            />
-            <span className="popup__input-label">Выбери сортировку</span>
+            <label className={styles.search_label}>Выбери рейтинг</label>
+            <div className={styles.search_input_wrapper}>
+              <input
+                className={styles.search_input}
+                type="number"
+                placeholder="от"
+                name="min_rating"
+                min="0"
+                max="10"
+                onChange={handleInputChange}
+              />
+              <input
+                className={styles.search_input}
+                type="number"
+                placeholder="до"
+                name="max_rating"
+                min="0"
+                max="10"
+                onChange={handleInputChange}
+              />
+            </div>
+            <label className={styles.search_label}>
+              Выбери год производства
+            </label>
+            <div className={styles.search_input_wrapper}>
+              <input
+                className={styles.search_input}
+                type="number"
+                placeholder="от"
+                name="min_year"
+                min="1895"
+                onChange={handleInputChange}
+              />
+              <input
+                className={styles.search_input}
+                type="number"
+                placeholder="до"
+                name="max_year"
+                min="1895"
+                onChange={handleInputChange}
+              />
+            </div>
+            <label className={styles.search_label}>
+              Выбери как сортировать
+            </label>
             <select
-              className="custom-select"
+              className={styles.search_input}
               name="order"
               onChange={handleInputChange}
             >
-              {/*id={id} onChange={onChange}*/}
               <option value="RATING">По рейтингу</option>
               <option value="YEAR">По году</option>
             </select>
-            <span className="popup__input-label">Выбери ключевое слово</span>
+            <label className={styles.search_label}>Выбери ключевое слово</label>
             <input
-              className="popup__input"
+              className={styles.search_input}
               type="text"
               name="keyword"
               placeholder="Название, тема фильма и тд."
               onChange={handleInputChange}
             />
-            {/*<input
-              className="popup__input popup__input_email"
-              type="email"
-              name="email"
-              onChange={props.onChange}
-              value={props.values.email || ""}
-              autoComplete="email"
-              required
-              placeholder="Введите почту"
-              pattern="([\w.%+-]+)@([\w-]+\.)+([\w]{2,})"
-            />*/}
           </fieldset>
-          <button
-            className="popup__link-button"
-            type="submit"
-            //disabled={!props.isValid}
-            //onClick={props.onButtonClick}
-          >
+          <button className={styles.search_submit_button} type="submit">
             Найти
           </button>
         </form>
       </section>
-      {searchedFilms && <CardList randomFilms={searchedFilms} />}
+
+      {searchedFilms && (
+        <section className={styles.search_result}>
+          <h1 className={styles.title}>Результат поиска</h1>
+          <CardList randomFilms={searchedFilms} />
+        </section>
+      )}
     </>
   );
 }

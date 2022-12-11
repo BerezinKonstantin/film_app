@@ -42,12 +42,19 @@ function FilmPage({ film }) {
           className={styles.film_page__big_picture}
           src="/kinoteatr.jpg"
           alt="Кинотеатр"
+          priority
           fill
         ></Image>
         <div className={styles.film_page__info}>
           <div className={styles.film_page__wrapper}>
             <div className={styles.film_page__cover}>
-              <Image src={film.posterUrl} alt="Постер фильма" fill></Image>
+              <Image
+                src={film.posterUrl}
+                alt="Постер фильма"
+                width={222}
+                height={320}
+                priority
+              ></Image>
             </div>
             <div className={styles.film_page__wrapper_col}>
               <h2 className={styles.film_page__title}>{film.nameRu}</h2>
@@ -70,8 +77,10 @@ function FilmPage({ film }) {
           </div>
           <p className={styles.film_page__text}>{film.description}</p>
           <p className={styles.film_page__text}>{film.year}</p>
-          {film.genres.map((genre) => (
-            <p className={styles.film_page__genre}>{genre.genre}</p>
+          {film.genres.map((genre, i) => (
+            <p className={styles.film_page__genre} key={i}>
+              {genre.genre}
+            </p>
           ))}
           <p className={styles.film_page__text}>{film.countries[0].country}</p>
         </div>
