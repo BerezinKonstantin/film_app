@@ -1,0 +1,19 @@
+.error_page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+}
+.error_title {
+  font-size: 48px;
+  margin: 120px auto 0;
+}
+.error_picture {
+  margin: 40px auto 0;
+}
+.error_text {
+  width: 70%;
+  text-align: center;
+  margin: 20px auto 0;
+}
