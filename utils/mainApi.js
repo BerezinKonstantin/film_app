@@ -19,7 +19,7 @@ export const getTopFilms = async () => {
   }
 };
 export const getPopularFilms = async () => {
-  const randomPage = Math.floor(Math.random() * 35) + 1;
+  const randomPage = Math.floor(Math.random() * 20) + 1;
   try {
     const response = await fetch(
       `${basedUrl}/films/top?type=TOP_100_POPULAR_FILMS&page=${randomPage}`,
