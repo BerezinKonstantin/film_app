@@ -45,45 +45,41 @@ function FilmPage({ film }) {
           priority
           fill
         ></Image>
-        <div className={styles.film_page__info}>
-          <div className={styles.film_page__wrapper}>
-            <div className={styles.film_page__cover}>
-              <Image
-                src={film.posterUrl}
-                alt="Постер фильма"
-                width={222}
-                height={320}
-                priority
-              ></Image>
-            </div>
-            <div className={styles.film_page__wrapper_col}>
-              <h2 className={styles.film_page__title}>{film.nameRu}</h2>
-              <div className={styles.film_page__rate_container}>
-                <Rating
-                  name="rating"
-                  value={film.ratingKinopoisk}
-                  precision={0.1}
-                  max={10}
-                  sx={{
-                    color: "orange",
-                  }}
-                  readOnly
-                />
-                <p className={styles.film_page__rating}>
-                  {film.ratingKinopoisk}
-                </p>
-              </div>
+        <div className={styles.film_page__wrapper}>
+          <div className={styles.film_page__cover}>
+            <Image
+              src={film.posterUrl}
+              alt="Постер фильма"
+              width={222}
+              height={320}
+              priority
+            ></Image>
+          </div>
+          <div className={styles.film_page__wrapper_col}>
+            <h2 className={styles.film_page__title}>{film.nameRu}</h2>
+            <div className={styles.film_page__rate_container}>
+              <Rating
+                name="rating"
+                value={film.ratingKinopoisk}
+                precision={0.1}
+                max={10}
+                sx={{
+                  color: "orange",
+                }}
+                readOnly
+              />
+              <p className={styles.film_page__rating}>{film.ratingKinopoisk}</p>
             </div>
           </div>
-          <p className={styles.film_page__text}>{film.description}</p>
-          <p className={styles.film_page__text}>{film.year}</p>
-          {film.genres.map((genre, i) => (
-            <p className={styles.film_page__genre} key={i}>
-              {genre.genre}
-            </p>
-          ))}
-          <p className={styles.film_page__text}>{film.countries[0].country}</p>
         </div>
+        <p className={styles.film_page__text}>{film.description}</p>
+        <p className={styles.film_page__text}>{film.year}</p>
+        {film.genres.map((genre, i) => (
+          <p className={styles.film_page__genre} key={i}>
+            {genre.genre}
+          </p>
+        ))}
+        <p className={styles.film_page__text}>{film.countries[0].country}</p>
       </section>
     </>
   );

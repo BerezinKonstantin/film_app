@@ -17,7 +17,7 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  margin: 0 20px 0 0;
+  margin: 0 60px 0 0;
 }
 .title {
   display: flex;
@@ -26,7 +26,7 @@
   font-size: 24px;
   font-weight: 600;
   text-decoration: none;
-  margin: 0 0 0 60px;
+  margin: 0 0 0 80px;
 }
 .link {
   font-size: 20px;
@@ -40,4 +40,20 @@
 }
 .active {
   text-decoration: underline bisque 3px;
+}
+@media (max-width: 425px) {
+  .title {
+    margin: 0 0 0 30px;
+  }
+  .nav {
+    margin: 0;
+  }
+}
+@media (max-width: 320px) {
+  .title {
+    margin: 0 0 0 20px;
+  }
+  .link {
+    margin: 0 10px 0 0;
+  }
 }

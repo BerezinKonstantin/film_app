@@ -7,3 +7,9 @@
 .footer_text {
   margin: 0 40px 0 0;
 }
+@media (max-width: 425px) {
+  .footer_text {
+    margin: 0 30px;
+    width: 90%;
+  }
+}
