@@ -73,6 +73,8 @@
 }
 .search_result .title {
   margin: 0 auto 28px;
+  width: 80%;
+  text-align: center;
 }
 @media (max-width: 1024px) {
   .search_form {

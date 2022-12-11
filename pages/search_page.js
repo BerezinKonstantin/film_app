@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Head from "next/head";
 import CardList from "../components/CardList";
 import styles from "../styles/SearchPage.module.css";
@@ -7,10 +7,12 @@ import db from "../utils/data_bases.json";
 export default function SearchPage() {
   const [values, setValues] = useState({});
   const [searchedFilms, setSearchedFilms] = useState();
+  const [isSearchResEmpty, setIsSearchResEmpty] = useState(false);
+  const searchRef = useRef();
+
   const handleInputChange = (ev) => {
     setValues({ ...values, [ev.target.name]: ev.target.value });
   };
-
   const getSearchResult = async () => {
     try {
       const response = await fetch(
@@ -36,7 +38,14 @@ export default function SearchPage() {
       const res = await response.json();
       console.log(res);
       const searchedFilms = res.items.filter((item) => item.nameRu);
+      if (!res.items[0]) {
+        setIsSearchResEmpty(true);
+        setSearchedFilms(false);
+      } else {
+        setIsSearchResEmpty(false);
+      }
       setSearchedFilms(searchedFilms);
+      searchRef.current.scrollIntoView({ behavior: "smooth" });
     } catch (err) {
       return console.log(err);
     }
@@ -157,15 +166,22 @@ export default function SearchPage() {
               onChange={handleInputChange}
             />
           </fieldset>
-          <button className={styles.search_submit_button} type="submit">
+          <button
+            className={styles.search_submit_button}
+            type="submit"
+            ref={searchRef}
+          >
             Найти
           </button>
         </form>
       </section>
-
       {searchedFilms && (
-        <section className={styles.search_result}>
-          <h1 className={styles.title}>Результат поиска</h1>
+        <section className={styles.search_result} id="search_res">
+          <h1 className={styles.title}>
+            {isSearchResEmpty
+              ? "Ничего не нашлось, попробуйте изменить запрос"
+              : "Результат поиска"}
+          </h1>
           <CardList randomFilms={searchedFilms} />
         </section>
       )}
