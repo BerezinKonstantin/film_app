@@ -1,14 +1,20 @@
 .card_list {
   display: grid;
   margin: 0 auto;
-  max-width: 1390px;
-  grid-template-columns: repeat(auto-fit, 222px);
-  grid-gap: 40px;
+
+  grid-template-columns: repeat(3, 222px);
+  justify-items: center;
+  grid-gap: 36px;
   padding: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 860px) {
   .card_list {
-    max-width: 90%;
+    grid-template-columns: repeat(2, 222px);
+  }
+}
+@media (max-width: 560px) {
+  .card_list {
+    grid-template-columns: 222px;
   }
 }
