@@ -26,11 +26,9 @@ export const getServerSideProps = async (context) => {
         .slice(0, 3);
     }
   };
-
   const randomTopFilms = getRandomFilms(topFilms);
   const randomPopularFilms = getRandomFilms(popularFilms);
   const randomClassicFilms = getRandomFilms(classicFilms);
-
   return {
     props: {
       filmArrays: { randomTopFilms, randomPopularFilms, randomClassicFilms },

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Card.module.css";
+
 export default function Card({ year, cover, id, filmName }) {
   return (
     <Link className={styles.card__link} href={`/films/${id}`}>

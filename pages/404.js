@@ -6,7 +6,6 @@ import styles from "../styles/404.module.css";
 
 const Error = () => {
   const router = useRouter();
-
   useEffect(() => {
     setTimeout(() => {
       router.push("/");

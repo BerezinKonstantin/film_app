@@ -19,13 +19,11 @@ export const getServerSideProps = async (context) => {
       return response.json();
     })
     .catch((err) => console.log(err));
-
   if (!res) {
     return {
       notFound: true,
     };
   }
-
   return {
     props: { film: res },
   };
