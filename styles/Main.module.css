@@ -12,3 +12,11 @@
 .subtitle {
   margin: 38px auto;
 }
+.link {
+  text-decoration: none;
+  color: orange;
+}
+.link:hover {
+  opacity: 0.5;
+  transition: linear 0.3s;
+}
